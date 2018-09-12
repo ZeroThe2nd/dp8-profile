@@ -1,0 +1,16 @@
+{
+    "name": "pepijnzegveld/dp8-profile",
+    "description": "Drupal installation profile for testing",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Pepijn Zegveld",
+            "email": "pepijn@ezcompany.nl"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "pepijnzegveld": "src/"
+        }
+}
