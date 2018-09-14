@@ -1,16 +1,23 @@
 {
-    "name": "pepijnzegveld/dp8-profile",
-    "description": "Drupal installation profile for testing",
-    "type": "library",
-    "authors": [
+    "name"        : "pepijnzegveld/dp8-profile",
+    "license"     : "proprietary",
+    "type"        : "drupal-profile",
+    "description" : "Drupal installation profile for testing",
+    "authors"     : [
         {
-            "name": "Pepijn Zegveld",
-            "email": "pepijn@ezcompany.nl"
+            "name"  : "Pepijn Zegveld",
+            "email" : "pepijn@ezcompany.nl"
         }
     ],
-    "require": {},
-    "autoload": {
-        "psr-0": {
-            "pepijnzegveld": "src/"
+    "require"     : {
+
+    },
+    "require-dev": {
+        "drupal/core": "8.6.*"
+    },
+    "autoload"    : {
+        "psr-0" : {
+            "pepijnzegveld" : "src/"
         }
+    }
 }
