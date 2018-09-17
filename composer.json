@@ -1,7 +1,7 @@
 {
-    "name"        : "pepijnzegveld/dp8-profile",
+    "name"        : "dvg/dp8-profile",
     "license"     : "proprietary",
-    "type"        : "dvg-profile",
+    "type"        : "drupal-profile",
     "description" : "Drupal installation profile for testing",
     "authors"     : [
         {
@@ -10,7 +10,8 @@
         }
     ],
     "require"     : {
-        "composer/installers" : "~1.0"
+        "composer/installers" : "~1.0",
+        "dvg/dp8-module"      : "dev-master"
     },
     "require-dev" : {
         "drupal/core" : "8.6.*"
