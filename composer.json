@@ -1,7 +1,7 @@
 {
     "name"        : "pepijnzegveld/dp8-profile",
     "license"     : "proprietary",
-    "type"        : "drupal-profile",
+    "type"        : "dvg-profile",
     "description" : "Drupal installation profile for testing",
     "authors"     : [
         {
